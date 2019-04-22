@@ -1,0 +1,33 @@
+{
+  "name": "youser",
+  "version": "1.0.0",
+  "description": "Module for user management",
+  "main": "youser.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AnthonyRuffino/youser.git"
+  },
+  "keywords": [
+    "userservice",
+    "jwt",
+    "password",
+    "bcrypt",
+    "confirmation",
+    "mail",
+    "confirmation-token"
+  ],
+  "author": "Anthony Ruffino",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/AnthonyRuffino/youser/issues"
+  },
+  "homepage": "https://github.com/AnthonyRuffino/youser#readme",
+  "dependencies": {
+    "bcrypt-nodejs": "0.0.3", 
+    "nodemailer": "^2.7.2",
+    "uuid": "^3.3.2"
+  }
+}
